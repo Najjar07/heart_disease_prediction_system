@@ -232,7 +232,7 @@ if predict_button:
 # ==============================
 st.subheader("Model Evaluation (Test Set)")
 
-file_path = r"C:\Users\LENOVO\Desktop\sk\heart_disease.csv"
+file_path = "heart_disease.csv"
 df = pd.read_csv(file_path)
 
 X = df.drop("target", axis=1)
@@ -288,3 +288,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
