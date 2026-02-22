@@ -8,7 +8,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score, classification_rep
 import os
 
 # --- Load the trained model ---
-model_path = r"C:\Users\LENOVO\Desktop\sk\rf_heart_disease_Model.pkl"
+model_path = "rf_heart_disease_Model.pkl"
 rf_model = joblib.load(model_path)
 
 st.markdown("<h1>❤️ Heart Disease Prediction System</h1>", unsafe_allow_html=True)
@@ -286,4 +286,5 @@ st.markdown(
     "<br><strong>Najari Umar Jibril – Machine Learning Engineer</strong>"
     "</div>",
     unsafe_allow_html=True
+
 )
